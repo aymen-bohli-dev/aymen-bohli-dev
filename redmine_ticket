@@ -1,0 +1,32 @@
+Pour faire ça c’est simple , chaque fin de journée  ou après que j’ai terminé un Ticket , il me suffit de : 
+
+1.	Aller sur le Ticket en question sur Redmine
+2.	Sélectionner le bouton LOG TIME
+
+3.	Entrer le nombre d’heure travailler sur ce Ticket , par exemple sur ce Ticket j’ai travaillé dessus toute la journée donc je mets 8h
+4.	Changer la date si je veux logué sur une ancienne Ticket , par exemple si j’avais oublié de logué du temps sur ticket que j’ai traité hier ,
+je mets la dates d’hier et je log mon temps
+5.	Mettre l’activité   ( DESIGN pour avoir fait du Chiffrage, Spec sur ce ticket  , DEVELOPPEMENT pour avoir fait du dev ce Ticket ,
+TEST pour avoir fait du test sur ce Ticket et CI/CD pour avoir fait du déploiement, installation dessus)
+6.	Comment : mettre un commentaire si nécessaire
+7.	Appuier sur Create et c’est fait
+
+Vous pouvez visualiser tous les temps que vous loggué sur l’onglet « spent Time » sur chaque projet 
+
+Les règles sont simples :
+
+•	Il faut que a chaque fin de journée vos ayez 8h de loggué sur cette onglet.
+•	Il faut que chaque fin de semaine vous ayez 40h de logué sur cette onglet tous projets confondus.
+•	Le minimum d’imputation est de 1H donc si vous avez passé 30 minutes sur un sujet mettre une heure minimum.
+
+Les exceptions :
+
+•	Si sur une journée , vous avez passé quelque heures sans aucun Travail a faire , vous utiliser le Ticket Redmine suivant pour 
+logué le temps que vous avez passé sans un Ticket :   #22979  , lien : https://redmine-prod.teamwill.fr/issues/22979
+•	Si sur une journée , vous étiez absent ou vous avez une autorisation ,  vous utiliser le Ticket Redmine suivant pour logué le temps que vous avez passé OFF :
+#22980 , https://redmine-prod.teamwill.fr/issues/22980
+•	Si sur une journée , vous étiez en Pilotages , aide aux développeur , ou dans des réunions , utiliser le ticket suivant : 
+#22981 , lien : https://redmine-prod.teamwill.fr/issues/22981
+•	Si sur une journée vous étiez en formation , utiliser le Ticket suivant : #22982 , lien : https://redmine-prod.teamwill.fr/issues/22982
+
+
